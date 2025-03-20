@@ -17,25 +17,18 @@ End the program
 ```
 ## Program:
 ```
-Developed by: M.Mahalakshmi
-Register Number : 212224230148
+Developed by: MAHALINGA JEYANTH V
+Register Number : 212224220057
 ```
 ```
 import numpy as np
-A = np.array([[1, -3],  
-              [3, 1]])  
-
-B = np.array([0, 10])  
-solution = np.linalg.solve(A, B)
-x, y = solution
-print(f"[{int(x)}. {round(y)}.]")
+A=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+B=np.array([-9,4,-1])
+result=np.linalg.solve(A,B)
+print(result)
 ```
-
 ## Output:
-![alt text](<Screenshot 2025-03-13 141445.png>)
-
-![Screenshot 2025-03-03 082450](https://github.com/user-attachments/assets/5ba18f96-3634-48d5-97ad-ffe90e595b28)
-
+![alt text](<Screenshot 2025-03-13 141445-1.png>)
 
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
